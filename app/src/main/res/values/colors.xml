@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- slider actions separator -->
+    <color name="slider_actions_separator">#FFFFFF</color>
+    <!-- text colors -->
+    <color name="slide_text_color">#FFFFFF</color>
+    <!-- background colors -->
+    <color name="bg_screen1">#F44336</color>
+    <color name="bg_screen2">#9C27B0</color>
+    <color name="bg_screen3">#009688</color>
+    <color name="bg_screen4">#FF5722</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#E57373</color>
+    <color name="dot_dark_screen2">#BA68C8</color>
+    <color name="dot_dark_screen3">#4DB6AC</color>
+    <color name="dot_dark_screen4">#FF8A65</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFCDD2</color>
+    <color name="dot_light_screen2">#E1BEE7</color>
+    <color name="dot_light_screen3">#B2DFDB</color>
+    <color name="dot_light_screen4">#FFCCBC</color>
+    <!-- array slider views -->
+    <array name="array_slider_views">
+        <item>@layout/slide_1</item>
+        <item>@layout/slide_2</item>
+        <item>@layout/slide_3</item>
+        <item>@layout/slide_4</item>
+    </array>
+    <!-- array dots active -->
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <!-- array dots inactive -->
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+</resources>

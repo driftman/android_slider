@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SliderApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Title1</string>
+    <string name="slide_1_description">Some Bla Bla Bla 1</string>
+    <string name="slide_2_title">Title2</string>
+    <string name="slide_2_description">Some Bla Bla Bla 1</string>
+    <string name="slide_3_title">Title3</string>
+    <string name="slide_3_description">Some Bla Bla Bla 1</string>
+    <string name="slide_4_title">Title4</string>
+    <string name="slide_4_description">Some Bla Bla Bla 1</string>
+</resources>
