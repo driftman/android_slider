@@ -1,4 +1,4 @@
-package ma.nse.sliderapp;
+package ma.nse.sliderapp.adapters;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

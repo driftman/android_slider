@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#EF6C00</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="dot_inactive">#FFF3E0</color>
     <!-- slider actions separator -->
     <color name="slider_actions_separator">#FFFFFF</color>
     <!-- text colors -->
     <color name="slide_text_color">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#757575</color>
     <!-- background colors -->
     <color name="bg_screen1">#F44336</color>
     <color name="bg_screen2">#9C27B0</color>

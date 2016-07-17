@@ -1,15 +1,12 @@
 package ma.nse.sliderapp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Html;
-import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,6 +15,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import ma.nse.sliderapp.adapters.SliderPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +60,14 @@ public class MainActivity extends AppCompatActivity {
         btnNext = (Button)findViewById(R.id.btn_next);
         btnSkip = (Button)findViewById(R.id.btn_skip);
         linearLayout = (LinearLayout)findViewById(R.id.slider_dots);
+
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), NearbyActivity.class);
+                startActivity(intent);
+            }
+        });
 
         preferenceManager = new PreferenceManager(this);
         viewPager = (ViewPager)findViewById(R.id.slider);
@@ -112,9 +119,9 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(Html.fromHtml("&#8226;"));
             textView.setTextSize(30);
             if(i == currentPosition) {
-                textView.setTextColor(activeDotColors[currentPosition]);
+                textView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
             } else {
-                textView.setTextColor(inactiveDotColors[currentPosition]);
+                textView.setTextColor(getResources().getColor(R.color.dot_inactive));
             }
             linearLayout.addView(textView);
         }

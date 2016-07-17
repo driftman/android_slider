@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">SliderApp</string>
     <string name="action_settings">Settings</string>
+
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
+
     <string name="slide_1_title">Title1</string>
     <string name="slide_1_description">Some Bla Bla Bla 1</string>
     <string name="slide_2_title">Title2</string>
@@ -12,4 +14,33 @@
     <string name="slide_3_description">Some Bla Bla Bla 1</string>
     <string name="slide_4_title">Title4</string>
     <string name="slide_4_description">Some Bla Bla Bla 1</string>
+
+    <string name="activity_chat">A chat list view</string>
+    <string name="activity_chat_room">A chat room view</string>
+    <string name="activity_feed">A feed view</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="recipient">John Doe</string>
+    <string name="title_activity_nearby">Nearby</string>
+    <string name="interact">Réagir</string>
+    <string name="comment">Commenter</string>
+    <string name="share">Partager</string>
+    <string name="publisher_name">Soufiane ELBAZ</string>
+    <string name="time_ago">2 min</string>
+    <string name="title_placeholder">Title</string>
+    <string name="description_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra cursus pharetra.</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">SIGN IN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_login">LOGIN</string>
 </resources>
